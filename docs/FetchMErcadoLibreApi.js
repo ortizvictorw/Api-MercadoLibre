@@ -24,7 +24,7 @@ let form = document.getElementById('formulario').addEventListener('submit',funct
             
                                 `
                                 <div  class="card">
-                                        <img src="${produc.thumbnail}" class="card-img-top mx-1 " style="width: 20rem;" alt="...">
+                                        <img src="${produc.thumbnail}" class="card-img-top mx-1 " style="width: 5rem;" alt="...">
                                         <div class="card-body">
                                         <h5 class="card-title">${JSON.stringify(produc.attributes[0].value_name)}</h5>
                                         <p class="card-text">
